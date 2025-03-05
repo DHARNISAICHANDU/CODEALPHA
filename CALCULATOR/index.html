@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="">
+  <div class="main">
+    <div class="calculator">
+      <div class="header">
+        <div class="switchBox">
+          <input type="checkbox" id="switch">
+          <div class="box"></div>
+        </div>
+        <h1 class="title">Calculator</h1>
+      </div>
+      <div class="input">
+        <input type="text" id="display" disabled>
+        <input type="button" value="C" class="cancel_btn">
+      </div>
+      <div class="history" id="history"></div>
+      <div class="row">
+        <input type="button" value="7">
+        <input type="button" value="8">
+        <input type="button" value="9">
+        <input type="button" value="M+" class="operator">
+        <input type="button" value="+" class="memory">
+      </div>
+      <div class="row">
+        <input type="button" value="4">
+        <input type="button" value="5">
+        <input type="button" value="6">
+        <input type="button" value="MR" class="operator">
+        <input type="button" value="-" class="memory">
+      </div>
+      <div class="row">
+        <input type="button" value="1">
+        <input type="button" value="2">
+        <input type="button" value="3">
+        <input type="button" value="MC" class="operator">
+        <input type="button" value="*" class="memory">
+      </div>
+      <div class="row">
+        <input type="button" value="%">
+        <input type="button" value="0">
+        <input type="button" value="." class="operator">
+        <input type="button" value="√" class="operator">
+        <input type="button" value="/" class="operator">
+      </div>
+      <div class="row">
+        <input type="button" value="√" class="operator">
+        <input type="button" value="^" class="operator">
+        <input type="button" value="(">
+        <input type="button" value=")">
+        <input type="button" value="=" class="operator">
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
